@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposta de Segurança - Arboran</title>
+  <style>
+    :root {
+      --bg-color: #1e1e2f;
+      --card-bg: #2a2a3d;
+      --text-color: #e0e0e0;
+      --accent: #4ea1d3;
+      --table-header: #393950;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      color: var(--accent);
+    }
+
+    section {
+      background: var(--card-bg);
+      padding: 24px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      color: var(--text-color);
+    }
+
+    th, td {
+      padding: 12px 10px;
+      border: 1px solid #444;
+      text-align: left;
+    }
+
+    th {
+      background-color: var(--table-header);
+      color: var(--accent);
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    p, li {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Proposta de Segurança da Informação - Arboran</h1>
+
+  <section>
+    <h2>Fase 1: Diagnóstico Estratégico e Análise de Conformidade</h2>
+    <table>
+      <tr><th>Item</th><th>Serviço</th><th>Entregável</th><th>Tipo de Custo</th><th>Valor (R$)</th></tr>
+      <tr><td>1.1</td><td>Mapeamento de Ativos e Inventário de TI</td><td>Planilha detalhada com todos os ativos</td><td>Fixo</td><td>R$150,00</td></tr>
+      <tr><td>1.2</td><td>Análise de Vulnerabilidades (Rede, Servidores e Cloud)</td><td>Relatório técnico com varreduras</td><td>Fixo</td><td>R$300,00</td></tr>
+      <tr><td>1.3</td><td>Análise de Segurança do Website/Aplicações</td><td>Relatório de falhas de segurança</td><td>Fixo</td><td>R$200,00</td></tr>
+      <tr><td>1.4</td><td>Análise de Conformidade com a LGPD (Básico)</td><td>Checklist de conformidade</td><td>Fixo</td><td>R$250,00</td></tr>
+    </table>
+    <p><strong>Subtotal Fase 1:</strong> R$1.000,00</p>
+    <p><strong>Entregável:</strong> Dossiê de Segurança e Conformidade</p>
+  </section>
+
+  <section>
+    <h2>Fase 2: Implementação, Correção e Modernização</h2>
+    <table>
+      <tr><th>Item</th><th>Serviço</th><th>Entregável</th><th>Tipo de Custo</th><th>Valor</th></tr>
+      <tr><td>2.1</td><td>Correções e Atualizações Críticas</td><td>Aplicação de patches</td><td>Por Hora</td><td>R$60,00/h</td></tr>
+      <tr><td>2.2</td><td>Segurança de Perímetro e Endpoints</td><td>Firewall e proteção</td><td>Por Hora</td><td>R$60,00/h</td></tr>
+      <tr><td>2.3</td><td>Acesso Remoto Seguro (VPN)</td><td>VPN configurada</td><td>Por Hora</td><td>R$60,00/h</td></tr>
+      <tr><td>2.4</td><td>Backup e Recuperação</td><td>Backup local e nuvem</td><td>Por Hora</td><td>R$60,00/h</td></tr>
+      <tr><td>2.5</td><td>Treinamento (1:30h)</td><td>Treinamento sobre segurança</td><td>Fixo</td><td>R$200,00</td></tr>
+    </table>
+    <p><strong>Estimativa de Horas:</strong> 20-30h (R$1.300 - R$2.200)</p>
+    <p><strong>Relatório Final:</strong> Incluído nas horas</p>
+  </section>
+
+  <section>
+    <h2>Fase 3: Suporte Contínuo e Defesa Proativa</h2>
+    <table>
+      <tr><th>Plano</th><th>Serviços</th><th>SLA</th><th>Tipo de Custo</th><th>Valor</th></tr>
+      <tr><td>Plano Básico</td><td>Monitoramento básico, verificação mensal de backups, 5h suporte</td><td>8h úteis</td><td>Mensal</td><td>R$600,00</td></tr>
+      <tr><td>Plano Avançado</td><td>Monitoramento avançado, relatórios, phishing simulado, 10h suporte</td><td>4h úteis</td><td>Mensal</td><td>R$1.000,00</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Resumo Financeiro e Condições</h2>
+    <ul>
+      <li><strong>Fase 1:</strong> R$1.000,00</li>
+      <li><strong>Fase 2 (25h):</strong> ~ R$1.800,00</li>
+      <li><strong>Custo de Hardware/Licenças:</strong> A definir</li>
+      <li><strong>Total Estimado:</strong> R$3.000,00</li>
+      <li><strong>Desconto Especial (10%):</strong> R$2.700,00</li>
+    </ul>
+    <p><strong>Condições de Pagamento:</strong> 50% da Fase 1 para iniciar (R$500,00), restante na entrega</p>
+  </section>
+</body>
+</html>
